@@ -1,0 +1,25 @@
+body {
+    background-color: #FFBB5C;
+}
+
+.container-fluid {
+    background-color: #FFBB5C;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-file-label::after {
+    background-color: #FF9B50;
+    color: white;
+}
+
+.custom-file-input:focus ~ .custom-file-label::after {
+    border-color: #FF9B50;
+}
+
+#previewImage {
+    border: 2px solid #E25E3E;
+    border-radius: 10px;
+    padding: 10px;
+}
